@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -95,10 +96,16 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border-color;
   }
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .border-border-color {
+    border-color: hsl(var(--border));
   }
 }
