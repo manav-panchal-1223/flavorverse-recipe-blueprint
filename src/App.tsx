@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.MODE === 'production' ? '/flavorverse-recipe-blueprint' : '/'}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/recipes/:id" element={<RecipePage />} />
