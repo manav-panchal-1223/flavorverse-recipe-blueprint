@@ -68,6 +68,18 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			fontFamily: {
+				'playfair': ['Playfair Display', 'serif'],
+				'lato': ['Lato', 'sans-serif'],
+			},
+			colors: {
+				'culinary-orange': '#FF7B54',
+				'culinary-green': '#4D724D',
+				'warm-beige': '#F9F1E7',
+				'rich-brown': '#8B5A2B',
+				'spice-red': '#D83A30',
+				'herb-green': '#7ABD7E',
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
@@ -84,11 +96,33 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					"0%": {
+						opacity: "0",
+						transform: "translateY(10px)"
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translateY(0)"
+					}
+				},
+				'scale-in': {
+					"0%": {
+						transform: "scale(0.95)",
+						opacity: "0"
+					},
+					"100%": {
+						transform: "scale(1)",
+						opacity: "1"
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'scale-in': 'scale-in 0.4s ease-out'
 			}
 		}
 	},
