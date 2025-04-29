@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center">
               <span className="text-2xl font-playfair font-bold text-culinary-orange">
-                FlavorVerse
+                Rinny's Whisk Wonders
               </span>
             </Link>
             <p className="mt-4 text-sm text-foreground/80 font-lato">
@@ -115,7 +115,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-200 mt-12 pt-6 text-center text-sm text-foreground/60 font-lato">
-          <p>© {new Date().getFullYear()} FlavorVerse. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Rinny's Whisk Wonders. All rights reserved.</p>
         </div>
       </div>
     </footer>

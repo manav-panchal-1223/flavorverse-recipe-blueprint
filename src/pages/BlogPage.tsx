@@ -62,7 +62,7 @@ const BlogPage = () => {
           
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h1 className="text-4xl font-bold mb-4 font-playfair">The FlavorVerse Blog</h1>
+              <h1 className="text-4xl font-bold mb-4 font-playfair">The Rinny's Whisk Wonders Blog</h1>
               <p className="text-gray-600 max-w-2xl mx-auto font-lato">
                 Tips, techniques, ingredient spotlights, and stories from the culinary world.
                 Explore our articles to enhance your cooking knowledge.

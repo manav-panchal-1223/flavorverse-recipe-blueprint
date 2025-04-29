@@ -1,21 +1,11 @@
 
 export type Difficulty = "Easy" | "Medium" | "Hard";
 
-export type RecipeCategory = 
-  | "Breakfast" 
-  | "Lunch" 
-  | "Dinner" 
-  | "Dessert" 
-  | "Snack" 
-  | "Appetizer" 
-  | "Vegan" 
-  | "Vegetarian" 
-  | "Gluten-Free" 
-  | "Dairy-Free" 
-  | "Quick Meals"
+export type RecipeCategory =
   | "Baking"
   | "Healthy"
   | "Italian"
+  |  "Desert"
   | "Mexican"
   | "Asian"
   | "Mediterranean"

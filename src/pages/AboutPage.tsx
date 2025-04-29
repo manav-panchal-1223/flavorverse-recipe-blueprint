@@ -21,12 +21,12 @@ const AboutPage = () => {
           </div>
           
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold mb-6 font-playfair text-center">About FlavorVerse</h1>
+            <h1 className="text-4xl font-bold mb-6 font-playfair text-center">About Rinny's Whisk Wonders</h1>
             
             <div className="mb-12 rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=1000&auto=format&fit=crop" 
-                alt="FlavorVerse Team in the kitchen" 
+                alt="Rinny's Whisk Wonders Team in the kitchen" 
                 className="w-full h-auto object-cover max-h-[400px]"
               />
             </div>
@@ -34,20 +34,20 @@ const AboutPage = () => {
             <div className="prose prose-lg max-w-none font-lato">
               <h2 className="font-playfair text-culinary-green">Our Story</h2>
               <p>
-                FlavorVerse was born from a simple passion: making cooking accessible, enjoyable, and delicious for everyone.
+                Rinny's Whisk Wonders was born from a simple passion: making cooking accessible, enjoyable, and delicious for everyone.
                 What started as a personal collection of family recipes has grown into a community of food lovers,
                 home cooks, and culinary enthusiasts sharing their knowledge and creativity.
               </p>
               
               <p>
-                Founded in 2020, FlavorVerse aims to be more than just a recipe website. We strive to create a space
+                Founded in 2020, Rinny's Whisk Wonders aims to be more than just a recipe website. We strive to create a space
                 where you can find inspiration, learn new techniques, and discover the stories behind the dishes that
                 bring us together around the table.
               </p>
               
               <h2 className="font-playfair text-culinary-green">Our Philosophy</h2>
               <p>
-                At FlavorVerse, we believe that cooking should be:
+                At Rinny's Whisk Wonders, we believe that cooking should be:
               </p>
               
               <ul>
@@ -83,7 +83,7 @@ const AboutPage = () => {
                   <p className="text-center text-gray-600 mb-3">Founder & Head Chef</p>
                   <p className="text-gray-700">
                     With 15 years of professional culinary experience and a degree from the Culinary Institute of America,
-                    Sarah brings technical expertise and a passion for teaching to the FlavorVerse kitchen.
+                    Sarah brings technical expertise and a passion for teaching to the Rinny's Whisk Wonders kitchen.
                   </p>
                 </div>
                 
@@ -140,7 +140,7 @@ const AboutPage = () => {
               
               <h2 className="font-playfair text-culinary-green">Our Testing Process</h2>
               <p>
-                Every recipe on FlavorVerse goes through a rigorous testing process to ensure it works in your home kitchen:
+                Every recipe on Rinny's Whisk Wonders goes through a rigorous testing process to ensure it works in your home kitchen:
               </p>
               
               <ol>
@@ -159,7 +159,7 @@ const AboutPage = () => {
               
               <h2 className="font-playfair text-culinary-green">Join Our Community</h2>
               <p>
-                FlavorVerse is more than a website—it's a community of people who love food. Connect with us on
+                Rinny's Whisk Wonders is more than a website—it's a community of people who love food. Connect with us on
                 social media, subscribe to our newsletter, or reach out directly. We're always excited to hear from
                 fellow food enthusiasts and home cooks!
               </p>
