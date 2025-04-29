@@ -3,7 +3,7 @@ import { Recipe, RecipeCategory } from './types';
 
 export const recipes: Recipe[] = [
   {
-    "id": "homemade-pistachio-baklava",
+    id: "homemade-pistachio-baklava",
     "title": "Homemade Pistachio Baklava",
     "description": "A crispy, sweet pastry dessert featuring layers of phyllo dough filled with chopped pistachios and soaked in honey syrup.",
     "intro": "This traditional Mediterranean dessert features crisp layers of phyllo pastry filled with chopped pistachios and soaked in a honey-lemon syrup. The contrast between the room temperature syrup poured over hot baklava creates the perfect texture - crispy yet delicately sweet. This impressive dessert is perfect for special occasions or whenever you crave something uniquely delicious.",
