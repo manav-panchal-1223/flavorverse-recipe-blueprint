@@ -68,7 +68,8 @@ export const recipes: Recipe[] = [
         "description": "Using a sharp knife, score the top into diamond or square shapes."
       },
       {
-        "description": "Bake at 350°F (175°C) for about 40 minutes, or until golden brown and crisp."
+        "description": "Bake at 350°F (175°C) for about 40 minutes, or until golden brown and crisp.",
+        "image": "https://media-hosting.imagekit.io/c02802578b3e4d99/Baklava-Recipe-3199.jpg?Expires=1840496505&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0-zx~hMUnnKrlp7PGidn8VkPZz7-Dg2xGXNm5tuXxkLfCxKtq8MHLZt8T7Fndzpw~vf6sC0IPk4cOIAj0v9Ma0zvQ3IWsuvsUP6jFm7z7iZvL0fZpfs~g3PJF7IYjej1Fhkmf9CtJT0R~YYF0szf7nnA02O8Dz-Bd7RMhRxxjW4LiWFg~0lYbf3k9igMth35WX5emzMsrkg54JZusaGZXbZpFymCpCShYhh5cyZSwzJ0NyHpc~2NDJvXbWCUrGG7FK0M2Y0oeXKProorwEvIj7hjx9RsU49IyYkF2~q76YXptsNrHApPehy8xUuGfJ9ZAQYIxGKOH0F126u1E64g~Q__"
       },
       {
         "description": "As soon as the baklava comes out of the oven, immediately pour the room temperature syrup evenly over the hot baklava.",
